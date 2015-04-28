@@ -7,8 +7,8 @@ tags:
 - JavaScript
 ---
 ![](/thumbnails/t5.jpg)
-
 阅读[刘同学的博客](http://liuyangzuo.me/)有感，笔记如下：
+<!-- more -->
 * 非常有用的本地图片预览，使用了[HTML5 FileReader](https://developer.mozilla.org/zh-CN/docs/Web/API/FileReader)
   ```js
   function previewFile() {
