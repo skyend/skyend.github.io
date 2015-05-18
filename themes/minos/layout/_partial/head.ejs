@@ -31,5 +31,10 @@
   <link href="<%- url_for('/webfonts/ptserif/main.css') %>" rel='stylesheet' type='text/css'>
   <link href="<%- url_for('/webfonts/source-code-pro/main.css') %>" rel="stylesheet" type="text/css">
   <%- css('css/style') %>
-  <%- partial('google-analytics') %>
+  <% if(theme.google_analytics) { %>
+    <%- partial('google-analytics') %>
+  <% } %>
+  <% if(theme.baidu_analytics) { %>
+    <%- partial('baidu-analytics') %>
+  <% } %>
 </head>
