@@ -41,7 +41,7 @@
   margin-bottom: 10px
 
 .article-title
-  font-size: 2em
+  font-size: 1.6em
   font-weight: 700
   line-height: line-height-title
 a.article-title
@@ -83,10 +83,13 @@ a.article-title
     border-bottom: 1px solid color-border
     padding: 10px 0
   blockquote
+    padding: 10px 20px;
     font-family: font-default
-    font-size: 1.4em
-    margin: line-height 20px
-    text-align: center
+    text-align: left;
+    background-color: #f7f7f7;
+    border-left: 5px solid #eee;
+    p
+      margin: 5px 0
     footer
       font-size: font-size
       margin: line-height 0
@@ -154,15 +157,13 @@ a.article-title
 #article-nav
   clearfix()
   position: relative
-  @media mq-normal
-    margin: 20px 0
+  margin: 20px 0
 
 .article-nav-link-wrap
   text-decoration: none
   text-shadow: 0 1px #fff
   color: color-grey
   box-sizing: border-box
-  margin-top: block-margin
   text-align: center
   display: block
   &:hover
@@ -170,16 +171,15 @@ a.article-title
   @media mq-normal
     width: 50%
     margin-top: 0
+    margin-top: block-margin
 
 #article-nav-newer
-  @media mq-normal
-    float: left
-    text-align: left
+  float: left
+  text-align: left
 
 #article-nav-older
-  @media mq-normal
-    float: right
-    text-align: right
+  float: right
+  text-align: right
 
 .article-nav-caption
   text-transform: uppercase

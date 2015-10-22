@@ -6,7 +6,7 @@ categories:
 tags:
 - JavaScript
 ---
-![](/thumbnails/t4.jpg)
+
 以下摘自《JavaScript 语言精粹》
 <!-- more -->
 * length属性的值是其数组的最大整数属性名加上1，但它不一定等于数组里的属性的个数：

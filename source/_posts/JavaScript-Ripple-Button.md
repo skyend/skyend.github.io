@@ -9,8 +9,6 @@ tags:
 最近Android 5.0中Ripple Button比较火爆的流行起来，在Web前端中其实现的原理较为简单。本文将尝试通过不使用第三方JavaScript库的情况下结合HTML与CSS实现Web前端中的Ripple Button。
 [点击测试](/demo/ripple-buttons.html)（该示例在Chrome 41.0和IE 9/10/11下测试通过。）
 
-![](/thumbnails/t3.jpg)
-
 <!--more-->
 
 HTML和CSS部分代码比较简单：
@@ -20,7 +18,7 @@ HTML和CSS部分代码比较简单：
 <head>
   <title>Ripple Buttons</title>
   <style type="text/css">
-    /* 
+    /*
       button作为容器，其position需要设置为absolute来承载ripple背景
       overflow:hidden用于掩盖ripple超出button的部分
      */
@@ -35,7 +33,7 @@ HTML和CSS部分代码比较简单：
       border-radius: 4px;
       outline: none;
     }
-    /* 
+    /*
       button中的div为按钮的ripple背景，由JavaScript动态生成
      */
     button > div {

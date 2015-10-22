@@ -38,18 +38,18 @@ $nav-link
   @extend $nav-link
   display: none
   font-size: 16px
-  padding-left: 0
+  margin-left: -15px
   font-family: font-icon
   &:before
     content: "\f0c9"
   @media mq-mobile
     display: block
-    
+
 #logo
   float:left
   @media mq-mobile
     float: none
-    width: 100%
+    margin: 0 auto
     display: block
     background-position: center
 
@@ -67,7 +67,7 @@ $nav-link
   padding: 20px 15px
   @media mq-mobile
     text-align: center
-  
+
 .search-form
   clearfix()
   @media mq-mobile
@@ -84,26 +84,12 @@ $nav-link
   &::-webkit-search-results-decoration
   &::-webkit-search-cancel-button
     -webkit-appearance: none
-  &.st-default-search-input
-    display: inline-block
-    width: auto !important
-    height: auto !important
-    padding: 1px 0 0
-    border: none
-    color: color-default
-    line-height: 1.2em
-    background: none
-    border-radius: 0
-    box-shadow: none
-    font-family: font-default
-  
-.search-form-icon
+
+.search-form-submit
   @extend $nav-link
   float: left
   padding: 0
-  margin-top: 2px
-  margin-left: 8px
-  font-style: normal
   font-family: font-icon
   border: none
   background: none
+  cursor: pointer

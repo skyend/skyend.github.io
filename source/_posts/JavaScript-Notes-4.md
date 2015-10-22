@@ -6,7 +6,7 @@ categories:
 tags:
 - JavaScript
 ---
-![](/thumbnails/t6.jpg)
+
 以下摘自《JavaScript 权威指南（第6版）》
 <!-- more -->
 * null和undefined: 可以将null认为是一个特殊的对象，含义是“非对象”，事实上通常认为null是它自有类型的唯一一个成员，表示数字、字符串和对象是“无值”的；undefined是预定义的全局变量（它和null不一样，它不是关键字），它的值就是未定义。null和undefined都不包含任何方法。
